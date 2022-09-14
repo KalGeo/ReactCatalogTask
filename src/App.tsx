@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react'
+import './App.scss'
+import Catalog from './components/Catalog'
+import Menu from './components/Menu'
+import Header from './components/Header'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+interface props {
+  message?: string
 }
 
-export default App;
+function App (props: props): React.ReactElement {
+  return (
+    <Fragment>
+      <div className="catalog-wrapper">
+        <Header title={'asd'} />
+        <main className="main">
+          <Menu />
+          <Catalog />
+        </main>
+      </div>
+    </Fragment>
+  )
+}
+
+export default App

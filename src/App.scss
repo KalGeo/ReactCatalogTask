@@ -1,0 +1,57 @@
+@import "sass/reset";
+
+$red: #e63946;
+$white: #f1faee;
+$lblue: #a8dadc;
+$blue: #457b9d;
+$dblue: #1d3557;
+
+
+.header {
+  text-align: center;
+  color: $blue;
+  font-size: 2rem;
+}
+
+.main {
+  display: flex;
+
+  .menu {
+    max-width: 10rem;
+    width: 100%;
+    background-color: $dblue;
+    color: $white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+
+    .menu-list {
+      list-style: none;
+      padding: 0 0 0 1rem;
+
+      .menu-list-item {
+        margin: 12px 0;
+
+        .menu-list-item-link {
+          color: $white;
+          text-decoration: none;
+
+          &:hover {
+            color: $lblue;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+  }
+
+  .catalog {
+    flex: 1;
+    background-color: $white;
+    color: $dblue;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+  }
+}
