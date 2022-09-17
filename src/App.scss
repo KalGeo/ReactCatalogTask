@@ -1,10 +1,32 @@
 @import "sass/reset";
+@import "sass/variables";
+@import "sass/popup";
+@import "sass/product-card";
 
-$red: #e63946;
-$white: #f1faee;
-$lblue: #a8dadc;
-$blue: #457b9d;
-$dblue: #1d3557;
+
+button {
+  background-color: $blue;
+  color: $white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+  text-transform: lowercase;
+
+
+  &:hover {
+    background: $dblue;
+  }
+
+  &:disabled {
+    background: $red;
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+}
 
 
 .header {
@@ -14,44 +36,57 @@ $dblue: #1d3557;
 }
 
 .main {
-  display: flex;
-
   .menu {
-    max-width: 10rem;
     width: 100%;
-    background-color: $dblue;
-    color: $white;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 1rem;
+    margin: 0 auto;
+    display: inline-block;
 
     .menu-list {
+      background-color: $dblue;
       list-style: none;
-      padding: 0 0 0 1rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
 
       .menu-list-item {
-        margin: 12px 0;
+        min-width: 200px;
+        text-align: center;
+        cursor: pointer;
+        padding: 1rem;
+        color: $white;
+        transition: 0.2s ease;
 
-        .menu-list-item-link {
+        &.active {
+          background-color: $blue;
+        }
+
+        &:hover {
           color: $white;
-          text-decoration: none;
-
-          &:hover {
-            color: $lblue;
-            text-decoration: underline;
-          }
+          background: $red;
         }
       }
     }
-
   }
 
-  .catalog {
-    flex: 1;
-    background-color: $white;
+  .catalog-wrapper {
+    background-color: $gray;
+    width: 100%;
     color: $dblue;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 1rem;
+    padding-bottom: 1rem;
+
+    .catalog {
+      padding: 1rem;
+      margin: 0 auto;
+      display: grid;
+      gap: 1rem;
+      max-width: 1360px;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    .more-button {
+      margin: 0 auto;
+      display: block;
+      text-transform: uppercase;
+    }
   }
 }

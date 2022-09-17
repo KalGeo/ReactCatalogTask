@@ -1,0 +1,40 @@
+.product-card {
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid $dgray;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  background-color: #fff;
+
+  text-align: center;
+
+  .product-card-image {
+    img {
+      min-height: 200px;
+      max-height: 200px;
+      border-radius: 0.2rem;
+    }
+  }
+
+  .product-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: flex-start;
+    gap: 10px;
+
+    .product-card-price {
+      flex: 1;
+      text-align: left;
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+  }
+}
