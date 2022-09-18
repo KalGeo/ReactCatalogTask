@@ -1,0 +1,42 @@
+.popup-content {
+  margin: auto;
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid $dgray;
+  max-width: 20rem;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, .8)
+}
+
+.product-modal {
+  max-height: 75vh;
+  overflow: auto;
+
+  .product-modal-image {
+    text-align: center;
+    max-height: 100%;
+
+    img {
+      max-height: 100%;
+      border-radius: 0.2rem;
+    }
+  }
+
+  .product-modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    .product-modal-attributes-table {
+      border: 1px solid $dgray;
+      width: 100%;
+
+      td {
+        border: 1px solid $dgray;
+        padding: 0.25rem;
+      }
+    }
+  }
+}

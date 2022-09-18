@@ -1,20 +1,23 @@
 import React from 'react'
-import ProductCardPopup from './ProductCardPopup'
+import ProductCardModal from './ProductCardModal'
 
-interface productProps {
+export interface IProductAttributeProps {
+  [id: string]: string
+}
+
+export interface IProductProps {
   id: number
   title: string
   description: string
   price: number
-  discountPercentage: number
-  rating: number
-  stock: number
   brand: string
   thumbnail: string
   images: string[]
+  category: string
+  attributes: IProductAttributeProps
 }
 
-const ProductCard: React.FC<productProps> = (props) => {
+const ProductCard: React.FC<IProductProps> = (props: IProductProps) => {
   return (
     <div className={'product-card'}>
       <div className="product-card-image">
@@ -23,9 +26,8 @@ const ProductCard: React.FC<productProps> = (props) => {
       <div className={'product-card-body'}>
         <h3 className={'product-card-title'}>{props.title}</h3>
         <div className={'actions'}>
-          <div className={'product-card-price'}>{props.price} лв.</div>
-          <ProductCardPopup thumbnail={props.thumbnail} title={props.title}
-                            description={props.description} />
+          <div className={'product-card-price'}>{props.price} BGN</div>
+          <ProductCardModal {...props} />
         </div>
       </div>
     </div>

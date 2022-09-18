@@ -1,9 +1,8 @@
-import React, { Fragment, useCallback, useState } from 'react'
-import './App.scss'
+import React, { useCallback, useState } from 'react'
+import './sass/main.scss'
 import Catalog from './components/Catalog'
 import Menu from './components/Menu'
 import Header from './components/Header'
-import { products } from './components/Data'
 
 const DEFAULT_CATEGORY = 'smartphones'
 const DEFAULT_PRODUCTS_PER_PAGE = 4
@@ -18,21 +17,17 @@ function App (): React.ReactElement {
   }, [setProductsCategory, setProductsPerPage])
 
   const loadMore = (): void => {
-    if (products.length >= productsPerPage) {
-      setProductsPerPage(productsPerPage + DEFAULT_PRODUCTS_PER_PAGE)
-    }
+    setProductsPerPage(productsPerPage + DEFAULT_PRODUCTS_PER_PAGE)
   }
 
   return (
-    <Fragment>
-      <div className="wrapper">
-        <Header title={'Simple React Catalog'} />
-        <main className="main">
-          <Menu setProductsCategory={handleChangeCategory} productsCategory={productsCategory} />
-          <Catalog productsCategory={productsCategory} loadMore={loadMore} productsPerPage={productsPerPage} />
-        </main>
-      </div>
-    </Fragment>
+    <div className="wrapper">
+      <Header title={'Simple React Catalog'} />
+      <main className="main">
+        <Menu setProductsCategory={handleChangeCategory} productsCategory={productsCategory} />
+        <Catalog productsCategory={productsCategory} loadMore={loadMore} productsPerPage={productsPerPage} />
+      </main>
+    </div>
   )
 }
 
