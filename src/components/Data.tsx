@@ -237,10 +237,10 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'MacBook Pro',
-    description: 'MacBook Pro 2021 with mini-LED display may launch between September, November',
+    title: 'Windows 11',
+    description: 'Windows 11 2021 with mini-LED display may launch between September, November',
     price: 1749,
-    brand: 'APPle',
+    brand: 'Microsoft',
     category: 'software',
     thumbnail: 'https://dummyjson.com/image/i/products/6/thumbnail.png',
     images: ['https://dummyjson.com/image/i/products/6/1.png', 'https://dummyjson.com/image/i/products/6/2.jpg', 'https://dummyjson.com/image/i/products/6/3.png', 'https://dummyjson.com/image/i/products/6/4.jpg']
@@ -253,8 +253,8 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'Samsung Galaxy Book',
-    description: 'Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched',
+    title: 'Samsung Galaxy Launcher for Android',
+    description: 'Samsung Galaxy Launcher for Android S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched',
     price: 1499,
     brand: 'Samsung',
     category: 'software',
@@ -269,10 +269,10 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'Microsoft Surface Laptop 4',
+    title: 'Microsoft Software Beta',
     description: 'Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.',
     price: 1499,
-    brand: 'Microsoft Surface',
+    brand: 'Microsoft',
     category: 'software',
     thumbnail: 'https://dummyjson.com/image/i/products/8/thumbnail.jpg',
     images: ['https://dummyjson.com/image/i/products/8/1.jpg', 'https://dummyjson.com/image/i/products/8/2.jpg', 'https://dummyjson.com/image/i/products/8/3.jpg', 'https://dummyjson.com/image/i/products/8/4.jpg', 'https://dummyjson.com/image/i/products/8/thumbnail.jpg']
@@ -285,8 +285,8 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'Infinix INBOOK',
-    description: 'Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty',
+    title: 'Spyware Remover +',
+    description: 'Spyware has never been easier, thanks to this amazing product',
     price: 1099,
     brand: 'Infinix',
     category: 'software',
@@ -301,10 +301,10 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'HP Pavilion 15-DK1056WM',
-    description: 'HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10',
+    title: 'HP Antivirus +',
+    description: 'HP Antivirus + Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10',
     price: 1099,
-    brand: 'HP Pavilion',
+    brand: 'HP',
     category: 'software',
     thumbnail: 'https://dummyjson.com/image/i/products/10/thumbnail.jpeg',
     images: ['https://dummyjson.com/image/i/products/10/1.jpg', 'https://dummyjson.com/image/i/products/10/2.jpg', 'https://dummyjson.com/image/i/products/10/3.jpg', 'https://dummyjson.com/image/i/products/10/thumbnail.jpeg']
@@ -318,10 +318,10 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'MacBook Pro',
-    description: 'MacBook Pro 2021 with mini-LED display may launch between September, November',
+    title: 'Windows 11',
+    description: 'Windows 11 2021 with mini-LED display may launch between September, November',
     price: 1749,
-    brand: 'APPle',
+    brand: 'Microsoft',
     category: 'software',
     thumbnail: 'https://dummyjson.com/image/i/products/6/thumbnail.png',
     images: ['https://dummyjson.com/image/i/products/6/1.png', 'https://dummyjson.com/image/i/products/6/2.jpg', 'https://dummyjson.com/image/i/products/6/3.png', 'https://dummyjson.com/image/i/products/6/4.jpg']
@@ -334,8 +334,8 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'Samsung Galaxy Book',
-    description: 'Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched',
+    title: 'Samsung Galaxy Launcher for Android',
+    description: 'Samsung Galaxy Launcher for Android S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched',
     price: 1499,
     brand: 'Samsung',
     category: 'software',
@@ -350,8 +350,8 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'Samsung Galaxy Book',
-    description: 'Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched',
+    title: 'Samsung Galaxy Launcher for Android',
+    description: 'Samsung Galaxy Launcher for Android S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched',
     price: 1499,
     brand: 'Samsung',
     category: 'software',
@@ -366,10 +366,10 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'Microsoft Surface Laptop 4',
+    title: 'Microsoft Software Beta',
     description: 'Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.',
     price: 1499,
-    brand: 'Microsoft Surface',
+    brand: 'Microsoft',
     category: 'software',
     thumbnail: 'https://dummyjson.com/image/i/products/8/thumbnail.jpg',
     images: ['https://dummyjson.com/image/i/products/8/1.jpg', 'https://dummyjson.com/image/i/products/8/2.jpg', 'https://dummyjson.com/image/i/products/8/3.jpg', 'https://dummyjson.com/image/i/products/8/4.jpg', 'https://dummyjson.com/image/i/products/8/thumbnail.jpg']
@@ -382,8 +382,8 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'Infinix INBOOK',
-    description: 'Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty',
+    title: 'Spyware Remover +',
+    description: 'Spyware has never been easier, thanks to this amazing product',
     price: 1099,
     brand: 'Infinix',
     category: 'software',
@@ -398,10 +398,10 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'HP Pavilion 15-DK1056WM',
-    description: 'HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10',
+    title: 'HP Antivirus +',
+    description: 'HP Antivirus + Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10',
     price: 1099,
-    brand: 'HP Pavilion',
+    brand: 'HP',
     category: 'software',
     thumbnail: 'https://dummyjson.com/image/i/products/10/thumbnail.jpeg',
     images: ['https://dummyjson.com/image/i/products/10/1.jpg', 'https://dummyjson.com/image/i/products/10/2.jpg', 'https://dummyjson.com/image/i/products/10/3.jpg', 'https://dummyjson.com/image/i/products/10/thumbnail.jpeg']
@@ -415,10 +415,10 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'MacBook Pro',
-    description: 'MacBook Pro 2021 with mini-LED display may launch between September, November',
+    title: 'Windows 11',
+    description: 'Windows 11 2021 with mini-LED display may launch between September, November',
     price: 1749,
-    brand: 'APPle',
+    brand: 'Microsoft',
     category: 'software',
     thumbnail: 'https://dummyjson.com/image/i/products/6/thumbnail.png',
     images: ['https://dummyjson.com/image/i/products/6/1.png', 'https://dummyjson.com/image/i/products/6/2.jpg', 'https://dummyjson.com/image/i/products/6/3.png', 'https://dummyjson.com/image/i/products/6/4.jpg']
@@ -431,8 +431,8 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'Samsung Galaxy Book',
-    description: 'Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched',
+    title: 'Samsung Galaxy Launcher for Android',
+    description: 'Samsung Galaxy Launcher for Android S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched',
     price: 1499,
     brand: 'Samsung',
     category: 'software',
@@ -447,10 +447,10 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'Microsoft Surface Laptop 4',
+    title: 'Microsoft Software Beta',
     description: 'Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.',
     price: 1499,
-    brand: 'Microsoft Surface',
+    brand: 'Microsoft',
     category: 'software',
     thumbnail: 'https://dummyjson.com/image/i/products/8/thumbnail.jpg',
     images: ['https://dummyjson.com/image/i/products/8/1.jpg', 'https://dummyjson.com/image/i/products/8/2.jpg', 'https://dummyjson.com/image/i/products/8/3.jpg', 'https://dummyjson.com/image/i/products/8/4.jpg', 'https://dummyjson.com/image/i/products/8/thumbnail.jpg']
@@ -463,8 +463,8 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'Infinix INBOOK',
-    description: 'Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty',
+    title: 'Spyware Remover +',
+    description: 'Spyware has never been easier, thanks to this amazing product',
     price: 1099,
     brand: 'Infinix',
     category: 'software',
@@ -479,10 +479,10 @@ export const products = [
       technology: 'WiFi 6, BT 5.2, USB2',
       material: 'aluminum'
     },
-    title: 'HP Pavilion 15-DK1056WM',
-    description: 'HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10',
+    title: 'HP Antivirus +',
+    description: 'HP Antivirus + Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10',
     price: 1099,
-    brand: 'HP Pavilion',
+    brand: 'HP',
     category: 'software',
     thumbnail: 'https://dummyjson.com/image/i/products/10/thumbnail.jpeg',
     images: ['https://dummyjson.com/image/i/products/10/1.jpg', 'https://dummyjson.com/image/i/products/10/2.jpg', 'https://dummyjson.com/image/i/products/10/3.jpg', 'https://dummyjson.com/image/i/products/10/thumbnail.jpeg']

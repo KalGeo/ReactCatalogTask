@@ -12,6 +12,7 @@
   .product-card-image {
     img {
       height: 15rem;
+      object-fit: contain;
       border-radius: 0.2rem;
     }
   }
