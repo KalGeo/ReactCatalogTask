@@ -14,7 +14,7 @@ function App (): React.ReactElement {
   const handleChangeCategory = useCallback((category: string) => {
     setProductsCategory(category)
     setProductsPerPage(DEFAULT_PRODUCTS_PER_PAGE)
-  }, [setProductsCategory, setProductsPerPage])
+  }, [setProductsCategory])
 
   const loadMore = (): void => {
     setProductsPerPage(productsPerPage + DEFAULT_PRODUCTS_PER_PAGE)

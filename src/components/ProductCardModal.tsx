@@ -2,9 +2,13 @@ import React from 'react'
 import Popup from 'reactjs-popup'
 import { IProductProps } from './ProductCard'
 
-const ProductCardPopup: React.FC<IProductProps> = (props) => {
+interface productCardPopupProps extends IProductProps {
+  handleModalClose: () => void
+}
+
+const ProductCardPopup: React.FC<productCardPopupProps> = (props: productCardPopupProps) => {
   return (
-    <Popup trigger={<button className="button"> View More </button>} modal>
+    <Popup defaultOpen modal onClose={() => props.handleModalClose()}>
       <div className={'product-modal'}>
         <div className={'product-modal-image'}>
           <img src={props.images[0]} alt={props.title} />
